@@ -1,16 +1,16 @@
 baseURL = 'https://example.org/'
 languageCode = 'zh-cn'
-title = '我的个人经验贴'
+title = 'zyj的秘密基地'
 theme = 'PaperMod'
 
 [params]
     env = "production"
     title = "我的博客"
-    author = "libzw"
+    author = "libzwo"
     description = "记录生活，分享经验"
 
 [author]
-    name = "libzw"
+    name = "libzwo"
 
 [outputs]
     home = ["HTML", "RSS"]
@@ -18,3 +18,6 @@ theme = 'PaperMod'
     section = ["HTML"]
     taxonomy = ["HTML"]
     term = ["HTML"]
+
+[markup.goldmark.renderer]
+    unsafe = true

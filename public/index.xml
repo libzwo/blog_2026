@@ -1,13 +1,135 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>我的个人经验贴</title>
+    <title>zyj的秘密基地</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on 我的个人经验贴</description>
+    <description>Recent content on zyj的秘密基地</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 21 Feb 2026 16:43:49 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 17:34:06 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>亲爱的小源 ✨</title>
+      <link>http://localhost:1313/posts/love-story/</link>
+      <pubDate>Sat, 21 Feb 2026 17:34:06 +0800</pubDate>
+      <guid>http://localhost:1313/posts/love-story/</guid>
+      <description>&lt;div id=&#34;love_time&#34; style=&#34;text-align: center; font-size: 1.2rem; color: #ff69b4; font-weight: bold; margin: 20px 0;&#34;&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;如果你不曾出现，我大概还在这空荡的世界里漫无目的地流浪。&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;script&gt;
+    var start = new Date(&#34;2022-10-27T00:00:00&#34;); // 这里改成你们认识/在一起的日期
+    function updateTime() {
+        var now = new Date();
+        var diff = now - start;
+        var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        var mins = Math.floor((diff / (1000 * 60)) % 60);
+        var secs = Math.floor((diff / 1000) % 60);
+        document.getElementById(&#39;love_time&#39;).innerHTML = &#34;我们已经相识 &#34; + days + &#34; 天 &#34; + hours + &#34; 小时 &#34; + mins + &#34; 分 &#34; + secs + &#34; 秒&#34;;
+    }
+    setInterval(updateTime, 1000);
+&lt;/script&gt;
+&lt;h3 id=&#34;-我想对你说&#34;&gt;💌 我想对你说&lt;/h3&gt;
+&lt;h2 id=&#34;typing&#34; style=&#34;color: #555; line-height: 1.6;&#34;&gt;&lt;/h2&gt;
+&lt;script&gt;
+    var i = 0;
+    var txt = &#39;贝贝我们已经在一起好久啦，我还特地弄了个时间放在上面，本来是下午的突发奇想，想要搭建一个自己的博客，突然就想要用程序员的方式向你表达一下爱意，在一起的这段时间，我感觉我们俩个都变得比原来更好了，在你累的时候我会给你讲故事，在你吐槽傻逼客户的时候我会无条件站在你这边，在你情绪低落的时候我会给你托底，晚上我们可以一起说小话，下午可以一起吃cumei看炭治郎，中午可以一起烧菜做一顿难吃的饭，早上可以一起睡到太阳晒屁股，跟你在一起的每一天都是特别特别开心有意思的一天！我们现在已经有快快啦，我们正在朝着我们理想中的生活前进！我们一起努力，一起奋斗，一起享受，好耶！&#39;;
+    var speed = 150; // 打字速度（毫秒）
+
+    function typeWriter() {
+        if (i &lt; txt.length) {
+            document.getElementById(&#34;typing&#34;).innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+    window.onload = typeWriter;
+&lt;/script&gt;
+&lt;div class=&#34;slideshow-container&#34;&gt;
+    &lt;div class=&#34;mySlides fade&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/images/cx1.jpg&#34; style=&#34;width:100%; border-radius: 15px;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;mySlides fade&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/images/cx2.jpg&#34; style=&#34;width:100%; border-radius: 15px;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;mySlides fade&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/images/cx3.jpg&#34; style=&#34;width:100%; border-radius: 15px;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;mySlides fade&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/images/byz.jpg&#34; style=&#34;width:100%; border-radius: 15px;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;mySlides fade&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/images/cx4.jpg&#34; style=&#34;width:100%; border-radius: 15px;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;mySlides fade&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/images/yyh.jpg&#34; style=&#34;width:100%; border-radius: 15px;&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;mySlides fade&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/images/flower.jpg&#34; style=&#34;width:100%; border-radius: 15px;&#34;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 350px;
+    object-fit: cover; /* 保证不同尺寸的照片都能整齐显示 */
+}
+
+/* 文字样式 */
+.text {
+    color: #ff69b4;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+}
+
+/* 动画效果：淡入 */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+&lt;/style&gt;
+&lt;script&gt;
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName(&#34;mySlides&#34;);
+    for (i = 0; i &lt; slides.length; i++) {
+        slides[i].style.display = &#34;none&#34;;  
+    }
+    slideIndex++;
+    if (slideIndex &gt; slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = &#34;block&#34;;  
+    setTimeout(showSlides, 3000); // 每3秒自动切换一张
+}
+&lt;/script&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;font color=&#34;#ff69b4&#34; size=&#34;5&#34;&gt;❤ 永远喜欢你！！！ ❤&lt;/font&gt;
+&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First</title>
       <link>http://localhost:1313/posts/first/</link>
