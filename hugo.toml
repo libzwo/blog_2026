@@ -1,0 +1,20 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '我的个人经验贴'
+theme = 'PaperMod'
+
+[params]
+    env = "production"
+    title = "我的博客"
+    author = "libzw"
+    description = "记录生活，分享经验"
+
+[author]
+    name = "libzw"
+
+[outputs]
+    home = ["HTML", "RSS"]
+    page = ["HTML"]
+    section = ["HTML"]
+    taxonomy = ["HTML"]
+    term = ["HTML"]
