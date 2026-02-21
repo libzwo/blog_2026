@@ -34,7 +34,7 @@ title = '亲爱的小源 ✨'
             document.getElementById("typing").innerHTML += txt.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
-        }
+        }~~~~
     }
     window.onload = typeWriter;
 </script>

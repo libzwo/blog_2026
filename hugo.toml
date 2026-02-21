@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog-2026-two.vercel.app/'
 languageCode = 'zh-cn'
 title = 'zyj的秘密基地'
 theme = 'PaperMod'
